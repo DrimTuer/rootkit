@@ -1,1 +1,0 @@
-cmd_/home/foo/rootkit/server/rootkit.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-4.9.0-6-common/scripts/module-common.lds --build-id  -o /home/foo/rootkit/server/rootkit.ko /home/foo/rootkit/server/rootkit.o /home/foo/rootkit/server/rootkit.mod.o ;  true
